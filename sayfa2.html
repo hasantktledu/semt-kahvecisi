@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayfa 2</title>
+    <style>
+        * { box-sizing: border-box; }
+        #bolge1 {
+            /* background-color: bisque; */
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 6rem;
+        }
+
+        #bolge1 #ickutu1 {
+            flex: 1;
+        }
+
+        #bolge1 #ickutu2 {
+            flex: 1;
+        }
+
+        #bolge1 > div > img { 
+            max-width: 100%; /* Genişlik en fazla içinde bulunulan çerçeve genişliği kadar olsun. */
+            display: block;
+        }
+
+        .boxed-cerceve {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="bolge1" class="boxed-cerceve">
+       
+        <div id="ickutu1">
+            <img src="img/Turknetten-12-ay-sabit-fiyat-firsati.webp" alt="">
+        </div>
+
+        <div id="ickutu2">
+            <h2>TurkNet’lilere Çok Avantajlı 12 Aylık Peşin Ödemede İndirimli Fiyat Fırsatı</h2>
+            <p>
+                TurkNet’liler çok avantajlı! Mevcut TurkNet abonesiyseniz 30.09.2024’e kadar 12 Aylık Peşin Ödemede İndirimli Fiyat Fırsatı ile aylık ₺399,90’den internet hizmetinizin ücretini peşin ödeyerek bir yıl boyunca indirimli kullanabilirsiniz. Üstelik tek çekim ya da bankanızca sunulan 6 aya varan taksit imkanı ile birlikte. Taahhüt yok, cayma bedeli yok! Dilediğiniz zaman iptal edebilir ve kalan tutarı iade alabilirsiniz.
+            </p>
+            <a href="#">Ayrıntılı bilgi</a>
+
+            <div>
+
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
